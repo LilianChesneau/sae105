@@ -1,0 +1,23 @@
+/*Header*/
+.headersite {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bleu);
+}
+.headerleft{
+    display: flex;
+}
+.headerleft__img{
+    max-width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.headerleft__txt{
+    color: var(--blanc);
+    margin-top: 65px;
+}
+.headerright__img{
+    max-width: 80%;
+    padding-top: 5px;
+}
