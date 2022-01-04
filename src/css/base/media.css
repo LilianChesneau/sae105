@@ -11,3 +11,28 @@ figcaption{
     font-size: var(--caption);
     text-align: center;
 }
+
+/*Texte sur image*/
+.imagefond {
+    display: inline-block;
+    position: relative;
+}
+.imagefond .imagefondtxt {
+    background: rgba(255, 255, 255, 0.6);
+    z-index: 1;
+    position: absolute;
+    text-align: left;
+    padding-top: var(--esp15);
+    padding-bottom: var(--esp15);
+    margin:auto;
+    left: 0%;
+    right: 40%;
+    top: 40%;
+    width: 50%;
+}
+.titre{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*A Propos / Image*/

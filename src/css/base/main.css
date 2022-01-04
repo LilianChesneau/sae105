@@ -21,6 +21,78 @@ h2{
     color: var(--rouge);
 }
 section{
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: var(--esp15);
+    padding-right: var(--esp15);
+}
+
+/*Index.html bas de page*/
+.basdepage{
+    background-color: var(--gris);
+}
+.basdepage__soustitre{
+    font-weight: 700;
+    padding-top: var(--esp15);
+}
+.basdepage__txt{
+    padding-bottom: var(--esp15);
+}
+/*Index.html section le-saviez-vous*/
+.lesaviezvous{
+    max-width: 65%;
+    background-color: var(--rouge);
+}
+.lesaviezvous__titre{
+    color: var(--blanc);
+    padding-top: var(--esp15);
+}
+.lesaviezvous__txt{
+    color: var(--blanc);
+    font-weight: 100;
+    padding-bottom: var(--esp15);
+}
+
+/*Guide de l'appreenti écolo / Page article*/
+.basdepagearticle{
+    background-color: var(--bleu-clair);
+}
+.basdepagearticle__titre{
+    color: var(--bleu);
+    padding-top: var(--esp15);
+}
+.basdepagearticle__soustitre{
+    font-family: var(--font-title);
+    font-size: var(--titre);
+    font-weight: 400;
+    text-align: center;
+    margin-top: -10px;
+}
+.basdepagearticle__item{
+    list-style-type:none;
+    padding-bottom: var(--esp15);
+}
+.basdepagearticle__item:before{
+    content: "-"
+}
+
+/*Suppression des styles*/
+.menunav__item {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menunav__link {
+    text-decoration:none
+}
+button {
+    -webkit-appearance: none;
+    appearance: none;
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+.basdepagearticle__liste{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
