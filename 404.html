@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>page 404</title>
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <main>
@@ -16,8 +17,11 @@
             x-on:submit="q = q + ' site:mmimontbeliard.com'">
             <label for="q">Text à chercher :</label>
             <input type="text" id="q" name="q" x-model="q">
-            <button type="submit">Rechercher</button>
+            <button class="recherche" type="submit">Rechercher</button>
         </form>
+        <div class="errorbutton">
+            <a class="errorbutton__link" href="/index.html">Retour à l'accueil</a>
+        </div>
     </main>
 </body>
 </html>
