@@ -1,0 +1,22 @@
+:root {
+
+/* Color styles */
+--bleu: rgba(40, 83, 109, 1);
+--blanc: rgba(255, 255, 255, 1);
+--rouge: rgba(166, 38, 35, 1);
+--bleu-clair: rgba(120, 151, 170, 1);
+--noir: rgba(0, 0, 0, 1);
+--gris: rgba(222, 222, 222, 1);
+--texte-bleu: rgba(14, 45, 64, 1);
+
+/* Text-size styles */
+/* base size: base (16px) */
+--titre: 1.06rem;
+--corps: 0.88rem;
+--caption: 0.70rem;
+--base: 1rem;
+
+/* Font-family styles */
+--font-title: 'Fjalla One', sans-serif;
+--font-text: 'Manjari', sans-serif;
+}

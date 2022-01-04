@@ -1,0 +1,13 @@
+/* Base CSS*/
+img{
+    max-width: 100%;
+    height: auto;
+}
+figure{
+    margin: 0;
+}
+figcaption{
+    font-family: var(--font-text);
+    font-size: var(--caption);
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+/*Base CSS*/
+*, *::before, *::after {box-sizing: border-box;}
+body{
+    font-family: var(--font-text);
+    font-size: var(--corps);
+    font-weight: 400;
+    background-color: var(--blanc);
+    color: var(--noir);
+    text-align: left;
+}
+h1{
+    font-family: var(--font-title);
+    font-size: var(--titre);
+    font-weight: 400;
+    color: var(--noir);
+}
+h2{
+    font-family: var(--font-title);
+    font-size: var(--titre);
+    font-weight: 400;
+    color: var(--rouge);
+}
+section{
+    padding-left: 15px;
+    padding-right: 15px;
+}

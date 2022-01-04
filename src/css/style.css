@@ -1,0 +1,16 @@
+/*Typographie*/
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Manjari:wght@100;400;700&display=swap');
+
+/*Vendors*/
+@import url(vendors/normalize.css);
+
+/*Variables*/
+@import url(utils/variables.css);
+
+/*Base*/
+@import url(base/main.css);
+@import url(base/media.css);
+
+/*Components*/
+@import url(components/header.css);
+@import url(components/footer.css);
