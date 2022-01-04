@@ -1,1 +1,37 @@
-/*Footer*/
+/*Footer partie haute*/
+.footer{
+    background-color: var(--noir);
+}
+.footertop{
+
+    display: flex;
+    justify-content:space-between;
+}
+.footertopleft{
+   color: var(--blanc); 
+   padding-left: var(--esp15);
+}
+.footertopleft__groupe{
+    margin-top: -10px;
+}
+.footertopright{
+    max-width: 200px;
+}
+img.footertopright__logo{
+    max-width: 25%;
+}
+
+/*Footer partie basse*/
+.footerbot{
+    display: flex;
+}
+.footerbot__img{
+    width: 15%;
+    height: 15%;
+}
+.footerbot__txt{
+    color: var(--blanc);
+    font-weight: 100;
+    font-size: var(--caption);
+    margin-top: 25px;
+}
