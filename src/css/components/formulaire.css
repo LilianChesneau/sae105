@@ -1,0 +1,36 @@
+/*Formulaire de contact*/
+.formulaire{
+    background-color: #F5F5F5;
+    border: 1px solid #E5E5E5;
+    padding-left: var(--esp15);
+}
+.formulaireitem{
+    display: flex;
+    justify-content: space-between;
+}
+input#name{
+    margin-left: 59px;
+}
+input#prenom{
+    margin-left: 40.5px;
+}
+input#couriel{
+    margin-left: 44px;
+}
+textarea#message{
+    margin-top: -10px;
+    width: 95%;
+}
+
+/*Bouton envoyer*/
+.bouttonsend{
+    font-family: var(--font-title);
+    font-size: var(--titre);
+    letter-spacing: 2px;
+    color: var(--blanc);
+    background-color: var(--bleu-clair);
+    width: fit-content;
+    padding: 2%;
+    margin-right: 0;
+    margin-left: 70%;
+}

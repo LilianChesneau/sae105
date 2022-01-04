@@ -35,4 +35,16 @@ figcaption{
     margin-right: 10px;
 }
 
-/*A Propos / Image*/
+/*A Propos / Image de l'auteur sur le côté*/
+.qui{
+    display: flex;
+    padding-right: 0;
+}
+.qui__img{
+    max-width: 40%;
+    max-height: 200px;
+    align-self: center;
+}
+section.sectionqui{
+    padding-right: 0;
+}
