@@ -78,9 +78,6 @@ section.sectionqui{
 }	
 
 /*Image disparraissant sur une autre*/
-.superpose{
-    background-image:url(media/images/Pollution.webp);
-}
 .dessus{
     width: 60%;
 }
