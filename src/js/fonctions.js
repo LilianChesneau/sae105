@@ -32,3 +32,27 @@ function carrousel() {
         }
     });
 }
+
+function monterLegende() {
+	let legende = document.querySelector('.legende');
+	return anime({
+		targets: legende, 
+		translateY: '-5em', 
+		autoplay: false,
+		easing: 'linear',
+		duration: 200,
+		update: function() {
+			legende.style.display = "block";
+		}
+	}).play;
+}
+
+function descendreLegende() {
+	return anime({
+		targets: '.legende', 
+		translateY: '5em',
+		autoplay:false,
+		easing: 'linear',
+		duration: 200
+	}).play;
+}
