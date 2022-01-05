@@ -59,3 +59,12 @@
 .menuopen {
     overflow: hidden;
 }
+
+/*Rectangle*/
+.square {
+    position: absolute;
+    margin-top: -150px;
+    height: 780px;
+    width: 10px;
+    background-color: #CCCCCC;
+}
