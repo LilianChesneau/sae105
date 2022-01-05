@@ -56,7 +56,6 @@ section.sectionqui{
 	width: 350px;
 	height: 200px;
 	padding: 1px;
-	position: relative;
 	overflow: hidden;
 }
 .imagelegende img{
@@ -77,3 +76,14 @@ section.sectionqui{
 	top: 0;
 	display: none;
 }	
+
+/*Image disparraissant sur une autre*/
+.superpose{
+    background-image:url(media/images/Pollution.webp);
+}
+.dessus{
+    width: 60%;
+}
+.dessous{
+    margin-top: -150px;
+}
