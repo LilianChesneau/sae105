@@ -92,6 +92,10 @@ section{
     border-bottom: 1px solid;
     border-color: var(--bleu-clair);
 }
+.lastlink{
+    border-bottom: none;
+    padding-bottom: 30px;
+}
 a.projet__link{
     text-decoration: none;
 }
@@ -135,6 +139,13 @@ button {
 button.recherche{
     color: var(--noir);
     font-weight: 700;
+    text-align: center;
+}
+.titre404{
+    color: var(--rouge);
+    font-weight: 800;
+    text-align: center;
+    margin: 5%;
 }
 
 .sectionchangement{

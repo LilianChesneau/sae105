@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Captain Z - Agir pour notre planète : les solutions</title>
     <link rel="stylesheet" href="src/css/style.css">
-    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"defer></script>
 	<script src="https://animejs.com/lib/anime.min.js"></script>
 	<script src="src/js/fonctions.js"></script>
 </head>
@@ -19,41 +19,43 @@
                 <p class="headerleft__txt">Changez vos habitudes</p>
             </div>
             <div class="headerright">
-                <button class="headerright__button">
+                <button class="headerright__button" onclick="document.body.classList.toggle('menuopen')">
                     <img class="headerright__img" src="media/icones/menu.png" alt="Icone du menu">
                 </button>
             </div>
         </div>
 
-        <div class="headermenu">
-            <img class="headermenuleft__img" src="media/icones/logosite.png" alt="Logo du site Captain Z">
-            <div class="headermenucenter">
-                <p class="headermenucenter__txt">MENU</p>
+        <div class="menu">
+            <div class="headermenu">
+                <img class="headermenuleft__img" src="media/icones/logosite.png" alt="Logo du site Captain Z">
+                <div class="headermenucenter">
+                    <p class="headermenucenter__txt">MENU</p>
+                </div>
+                <button class="headermenuright" onclick="document.body.classList.remove('menuopen')">
+                    <img class="headermenuright__button" src="media/icones/Croix.png" alt="Icone de fermeture du menu">
+                </button>
             </div>
-            <button class="headermenuright">
-                <img class="headermenuright__button" src="media/icones/Croix.png" alt="Icone de fermeture du menu">
-            </button>
+            <nav class="menunav">
+                <ul class="menunav__list">
+                    <li class="menunav__item" ><a class="menunav__link" href="/404.html">Super-héros ou super-pollueur ?</a></li>
+                    <li class="menunav__item" ><a class="menunav__link" href="index.html">La pollution de l'air: c'est quoi ?</a></li>
+                    <li class="menunav__item"><a class="menunav__link" href="article.html">Agir pour notre planète: les solutions</a></li>
+                    <li class="menunav__item"><a class="menunav__link" href="apropos.html">A propos</a></li>
+                </ul>
+            </nav>
         </div>
-
-        <nav class="menunav">
-            <ul class="menunav__list">
-                <li class="menunav__item" ><a class="menunav__link" href="/404.html">Super-héros ou super-pollueur ?</a></li>
-                <li class="menunav__item" ><a class="menunav__link" href="index.html">La pollution de l'air: c'est quoi ?</a></li>
-                <li class="menunav__item"><a class="menunav__link" href="article.html">Agir pour notre planète: les solutions</a></li>
-                <li class="menunav__item"><a class="menunav__link" href="apropos.html">A propos</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main>
-        <section>
+
+        <section class="sectionchangement">
             <div class="imagefond">
-                <img src="media/images/Bus.webp" alt="Image d'un bus">
+                <img class="imageintro" src="media/images/Bus.webp" alt="Image d'un bus">
                 <div class="imagefondtxt">
                     <h1 class="titre">Agir pour notre planète : les solutions</h1>
                 </div>
             </div>
-            <p>La pollution de l’air est une catastrophe pour notre environnement. La planète souffre mais notre santé aussi. L’écologie doit être une priorité. Chacun à notre échelle, nous pouvons tous agir. Une prise de conscience collective commence à émerger. C’est le combat de la nouvelle génération. Greta Thunberg symbolise l’envie des jeunes de changer les mentalités. Beaucoup de solutions existent. Réduire notre empreinte carbone n’est pas si difficile. Juste besoin d’un peu de courage. Covoiturage ou transports en commun, même Captain America va s’y mettre. </p>
+            <p class="txtespace">La pollution de l’air est une catastrophe pour notre environnement. La planète souffre mais notre santé aussi. L’écologie doit être une priorité. Chacun à notre échelle, nous pouvons tous agir. Une prise de conscience collective commence à émerger. C’est le combat de la nouvelle génération. Greta Thunberg symbolise l’envie des jeunes de changer les mentalités. Beaucoup de solutions existent. Réduire notre empreinte carbone n’est pas si difficile. Juste besoin d’un peu de courage. Covoiturage ou transports en commun, même Captain America va s’y mettre.</p>
         </section>
 
         <section>
