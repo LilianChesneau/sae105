@@ -78,9 +78,12 @@ section.sectionqui{
 }	
 
 /*Image disparraissant sur une autre*/
+
 .dessus{
-    width: 60%;
+    width: 56%;
 }
 .dessous{
+    top: 0px;
     margin-top: -150px;
+    max-width: 375px;
 }
