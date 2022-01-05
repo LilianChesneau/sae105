@@ -1,0 +1,23 @@
+.carrousel{
+	grid-column: 2;
+	grid-row: 2;
+	width: 350px;
+	padding: 0px;
+    position: relative;
+	overflow: hidden;
+}
+.imagesanimediv{
+	width: 6600px;
+	height: 323px;
+	left:0;
+}
+.imagesanimediv img{
+	width: 350px;
+	height: 323px;
+}
+.imagesanime{
+    position: absolute;
+	top:0;
+	left:0;
+	z-index: 0;
+}

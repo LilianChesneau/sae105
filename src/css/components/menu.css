@@ -1,0 +1,39 @@
+/*Header*/
+.headermenu{
+    display: flex;
+    justify-content: space-between;
+}
+.headermenuleft__img{
+    max-width: 30%;
+    max-height: 35%px;
+    padding: 10px;
+}
+.headermenucenter__txt{
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 20px;
+    color: var(--rouge);
+    border-bottom: 1px solid black;
+}
+.headermenuright__button{
+    max-width: 50%;
+}
+
+/*Liste des liens*/
+.menunav__link{
+    font-family: var(--font-text);
+    font-size: var(--corps);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.menunav__item{
+    margin-bottom: 30px;
+    border: 1px black solid;
+    width: fit-content;
+    padding: 2%;
+}
+.menunav__item::before{
+    content: "";
+    
+
+}

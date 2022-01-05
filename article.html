@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Captain Z - Agir pour notre planète : les solutions</title>
     <link rel="stylesheet" href="src/css/style.css">
+    <script src="https://unpkg.com/alpinejs@3.2.2/dist/cdn.min.js"></script>
+	<script src="https://animejs.com/lib/anime.min.js"></script>
+	<script src="src/js/fonctions.js"></script>
 </head>
 
 <body>
@@ -23,9 +26,7 @@
         </div>
 
         <div class="headermenu">
-            <div class="headermenuleft">
-                <img class="headermenuleft__img" src="media/icones/logosite.png" alt="Logo du site Captain Z">
-            </div>
+            <img class="headermenuleft__img" src="media/icones/logosite.png" alt="Logo du site Captain Z">
             <div class="headermenucenter">
                 <p class="headermenucenter__txt">MENU</p>
             </div>
@@ -64,12 +65,13 @@
             <h2>TRANSPORTS EN COMMUN : un acte civilisé</h2>
             <p>Pour limiter ton bilan carbone, tu peux aussi prendre les transports en commun. Présents dans toutes les villes, c’est la solution la plus adapté pour les jeunes. Le transport en bus rejette dans l’atmosphère entre 70 et 200kg de Co2. Alors qu’un trajet en moto rejette 320kg pour une seule personne. Le calcul est vite fait.Si tu es dans une grande ville : le métro peut être parfait. Des forfaits anti-pollution sont mis en place au prix de 3,80 euros. Une solution idéale pour les petits budgets.</p>
             <div class="carrousel">
-                <div class="imagesanime">
+                <div class="imagesanimediv">
                     <img id="img1" class="imagesanime" src="media/images/CaptainAmericaBus.webp" alt="Image de Captain America dans un bus">
                     <img id="img2" class="imagesanime" src="media/images/Bus.webp" alt="Image d'un bus">
-                    <img id="img1" class="imagesanime" src="media/images/CaptainAmericaCaroussel.jpg" alt="Image de Captain America dans un bus">
+                    <img id="img3" class="imagesanime" src="media/images/CaptainAmericaCaroussel.jpg" alt="Image de Captain America">
                 </div>
             </div>
+            <script>carrousel();</script>
         </section>
 
         <section>
